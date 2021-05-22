@@ -1,0 +1,31 @@
+@import "_normalize.scss";
+@import "_variables";
+@import "modules/hello.scss";
+@import "_welcomeSection.scss";
+@import "_threeColSection.scss";
+@import "_about.scss";
+@import "_form.scss";
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+body {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fa-icon{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+
+.fa-container{
+    text-align: center;
+    color: #000; 
+    padding: 10px;
+}

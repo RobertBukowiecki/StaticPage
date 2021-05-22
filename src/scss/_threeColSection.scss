@@ -1,0 +1,48 @@
+@import "~normalize.css";
+
+@import "_variables";
+
+.three-col {
+    font-family: 'KoHo', sans-serif;
+    color: #000;
+    .section-container-spacer {
+        margin: 40px 0 30px 0;
+    }
+    .heart {
+        animation: heartbeat 3s ease-out infinite;
+        transition: 2s all;
+        &:hover {
+            color: red;
+
+        }
+    }
+}
+
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .94 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .94 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .94 );
+  }
+  100%
+  {
+    transform: scale( .94 );
+  }
+}

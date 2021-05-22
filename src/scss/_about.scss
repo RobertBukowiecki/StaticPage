@@ -1,0 +1,20 @@
+@import "_variables";
+
+
+
+.about {
+    background-image: url("https://i.4wzk.pl/gallery/478/31073_42.webp");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 50px 0;
+    font-family: "KoHo", sans-serif;
+    .text {
+        z-index: 10;
+        text-shadow: 0 0 5px white;
+    }
+    h2 {
+        font-size: 2.3em;
+    }
+}
