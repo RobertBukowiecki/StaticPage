@@ -3,6 +3,11 @@
 @import "_variables";
 
 .three-col {
+  .phone {
+    font-size: 20px;
+    animation: heartbeat 3s ease-out infinite;
+    transition: 2s all;
+  }
     font-family: 'KoHo', sans-serif;
     color: #000;
     .section-container-spacer {
